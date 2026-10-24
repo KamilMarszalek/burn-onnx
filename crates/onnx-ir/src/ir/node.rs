@@ -321,6 +321,7 @@ define_node_enum! {
     Gather => gather::GatherNode,
     GatherElements => gather_elements::GatherElementsNode,
     GatherND => gathernd::GatherNDNode,
+    ImageScaler => image_scaler::ImageScalerNode,
     Pad => pad::PadNode,
     Reshape => reshape::ReshapeNode,
     Resize => resize::ResizeNode,

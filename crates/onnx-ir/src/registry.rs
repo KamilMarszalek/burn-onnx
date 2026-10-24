@@ -620,6 +620,10 @@ impl ProcessorRegistry {
             NodeType::SpaceToDepth,
             Box::new(crate::node::space_to_depth::SpaceToDepthProcessor),
         );
+        registry.register(
+            NodeType::ImageScaler,
+            Box::new(crate::node::image_scaler::ImageScalerProcessor),
+        );
 
         // Random operations
         registry.register(

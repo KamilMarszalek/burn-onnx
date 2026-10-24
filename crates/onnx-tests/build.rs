@@ -357,6 +357,7 @@ fn add_all_inputs(model_gen: &mut ModelGen) {
         .input("tests/identity/identity_constant.onnx")
         .input("tests/identity/identity_only.onnx")
         .input("tests/identity/identity_passthrough.onnx")
+        .input("tests/image_scaler/image_scaler.onnx")
         .input("tests/imputer/imputer.onnx")
         .input("tests/imputer/imputer_int.onnx")
         .input("tests/imputer/imputer_nan.onnx")

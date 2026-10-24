@@ -374,6 +374,7 @@ impl_node_codegen_dispatch! {
     // Spatial ops
     DepthToSpace,
     SpaceToDepth,
+    ImageScaler,
     Resize,
     Upsample,
     AffineGrid,
